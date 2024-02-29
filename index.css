@@ -1,0 +1,43 @@
+.position-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  width: 40rem;
+}
+
+.image {
+  width: 40rem;
+  height: 40rem;
+}
+.list-image {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.position-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.button {
+  background-color: gray;
+  padding-left: 1rem;
+  border: none;
+  color: gray;
+  border-radius: 100%;
+}
