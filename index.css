@@ -6,6 +6,18 @@
   margin-top: 10rem;
 }
 
+.image {
+  width: 40rem;
+  height: 40rem;
+}
+
+.list-image {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  animation: mouvement 10s linear infinite;
+}
+
 .carousel {
   display: flex;
   flex-wrap: nowrap;
@@ -15,16 +27,6 @@
   scrollbar-color: transparent transparent;
   scroll-behavior: smooth;
   width: 40rem;
-}
-
-.image {
-  width: 40rem;
-  height: 40rem;
-}
-.list-image {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
 }
 
 .position-button {
@@ -41,4 +43,19 @@
   border: none;
   color: gray;
   border-radius: 100%;
+  text-decoration: none;
+  display: flex;
 }
+
+@keyframes mouvement {
+  from {
+   transform: translateX(0);
+   transform: translateY(0);
+  }to{
+    transform: translateX(calc(-43rem*2));
+  }
+  
+}
+
+
+
