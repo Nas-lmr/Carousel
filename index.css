@@ -13,6 +13,7 @@
   overflow-x: auto;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
+  scroll-behavior: smooth;
   width: 40rem;
 }
 
